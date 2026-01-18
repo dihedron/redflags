@@ -96,15 +96,16 @@ Se tra i collaboratori ci sono degli avversari, il capo ha il compito di aiutarl
 
 Può anche essere che sia l'organizzazione a non saper riconoscere il valore della generosità; il capo che non aiuta i collaboratori a crescere per paura di essere oscurato può manifestare un elemento di debolezza personale (scarsa confidenza nelle proprie capacità) ma anche una scarsa confidenza nella capacità dell'organizzazione di riconoscere che la crescita dei collaboratori è un elemento di crescita per l'organizzazione ed è ascrivibile anche all'azione del capo, al quale va attribuita parte del merito.
 
-== Cercare il genio o l'eroe
+== La ricerca dell'eroe o del genio
 
-Alcune organizzazioni sono alla costante ricerca del genio individuale o dell'eroe che da solo, offrendo il petto al nemico, sbaraglia le avversità e fa la differenza. A tali individui vengono attribuiti la maggior parte dei meriti, come se non fossero parte di una organizzazione o un gruppo.
+Alcune organizzazioni sono alla costante ricerca del genio individuale o dell'eroe che da solo, offrendo il petto al nemico, sbaraglia le avversità e fa la differenza. 
+A tali individui vengono attribuiti la maggior parte dei meriti, come se non fossero parte di una organizzazione o un gruppo senza il quale non avrebbero avuto la possibilità di fare ciò che è stato fatto.
 
 Questa caratteristica è un _red flag_; essa evidenzia la scarsa attenzione al fatto che maggiore è la complessità o il volume delle attività condotte, minore la possibilità dell'individuo di fare la differenza se non attraverso la collaborazione. 
 Premiare uno per i meriti degli altri ha un profondo effetto demotivante per chi si trova a lavorare suo malgrado per il successo altrui.
 
-Un gruppo sano usa tutte le risorse, prendendo da ciascuno secondo le proprie capacità e le proprie competenze, per raggiungere un obiettivo comune.
-Nel lavorare in gruppo non ci si deve preoccupare del fatto che non si riceverà in proporzione al proprio contributo perché l'organizzazione ne sceglierà uno che raccoglierà per tutti.
+Un gruppo sano usa tutte le risorse, prendendo da ciascuno secondo le proprie capacità e le proprie competenze e redistribuendo a ciascuno secondo il contributo dato nel raggiungimento di un obiettivo comune.
+Nel lavorare in gruppo non ci si deve preoccupare del fatto che non si riceverà in proporzione al proprio contributo perché l'organizzazione preferisce scegliere uno che raccoglierà per tutti.
 
 == Il feudo
 
@@ -127,12 +128,12 @@ Nel caso in esame, ciò comporta che il "feudatario" condivida ciò che ha fatto
 == Ignorare i fochisti
 
 In ogni organizzazione ci sono le persone che mandano avanti la baracca facendo il lavoro sporco.
-Queste persone (i "fochisti") non hanno visibilità, non possono essere rimpiazzate facilmente anche se lo desiderano e richiedono perché coprono posizioni essenziali ma non particolarmente gratificanti né attraenti per potenziali sostituti, non hanno opportunità di svilppo né prospettive di carriera (perché la carriera è legata alla visibilità).
+Queste persone (i "fochisti") non hanno visibilità, non possono essere rimpiazzate facilmente anche se lo desiderano e richiedono perché coprono posizioni essenziali ma non particolarmente gratificanti né attraenti per potenziali sostituti, non hanno opportunità di sviluppo né prospettive di carriera (perché la carriera è legata alla visibilità).
 Inoltre, spesso, vengono considerate improduttive.
 
 Questa è una caratteristica è un _red flag_.
 
-Si tratta della versione a livello organizzativo del _red flag_ "La ricerca dell'eroe e del genio": ci sono _team_ o aree che sono caratterizzate da "geni" o "eroi" e le retrovie non contano nulla.
+Si tratta della versione (a livello di intera organizzazione) dellla dinamica all'interno del singolo _team_ descritta nel _red flag_ "La ricerca dell'eroe e del genio": ci sono _team_ o aree che sono caratterizzate da "geni" o "eroi" e le retrovie non contano nulla.
 
 // == Abusare della posizione
 
@@ -149,8 +150,18 @@ La motivazione è esterna a sé.
 
 I capi endomotivanti...
 
+
+
+
+
+
+
+
+
+
+
+
+
 // Include your chapters here
 //include::chapters/01-contents.adoc[]
 
-// You can add more chapters easily:
-// include::chapters/02-advanced.adoc[]
