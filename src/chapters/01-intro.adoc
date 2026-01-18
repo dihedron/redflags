@@ -1,0 +1,24 @@
+== Introduction
+
+Welcome to your new book. This section is being pulled in from a separate file.
+
+=== Why AsciiDoc?
+
+AsciiDoc is superior to Markdown for books because it handles:
+
+* Complex tables
+* Admonitions (Warnings, Tips)
+* Cross-references
+
+[TIP]
+====
+You can add nice tips like this easily!
+====
+
+Here is a code snippet:
+
+[source,python]
+----
+def hello_world():
+    print("Hello Book!")
+----

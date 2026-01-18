@@ -1,0 +1,22 @@
+= The Hacker's Guide to AsciiDoc
+Your Name <you@example.com>
+:doctype: book
+:toc: left
+:toclevels: 2
+:sectnums:
+:sectnumlevels: 2
+:imagesdir: images
+:icons: font
+:source-highlighter: rouge
+
+// --- Book Content Starts Here ---
+
+// Optional: Dedication or Preamble
+[preamble]
+This book is dedicated to open source documentation.
+
+// Include your chapters here
+include::chapters/01-intro.adoc[]
+
+// You can add more chapters easily:
+// include::chapters/02-advanced.adoc[]
