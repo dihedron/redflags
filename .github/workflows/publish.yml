@@ -5,34 +5,69 @@ on:
     tags:
       - "v[0-9]+.*"
 
+permissions:
+  contents: write # Required for Releases and pushing to gh-pages branch
+
 jobs:
   build-and-release:
     runs-on: ubuntu-latest
     container: asciidoctor/docker-asciidoctor
-    permissions: write-all
+    
     steps:
       - name: Checkout Book Sources
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
+      - name: Extract Version Name
+        id: version
+        # Extracts '1.0.0' from 'refs/tags/v1.0.0'
+        run: echo "APP_VERSION=${GITHUB_REF#refs/tags/v}" >> $GITHUB_ENV
+
+      - name: Get Current Date
+        # Get today's date (YYYY-MM-DD) for the release date
+        run: echo "BUILD_DATE=$(date +'%Y-%m-%d')" >> $GITHUB_ENV          
+
       - name: Create Output Directory
         run: mkdir output
 
       - name: Build PDF
-        # asciidoctor-pdf is built-in to this image
-        run: asciidoctor-pdf -D output -o my-book.pdf src/book.adoc
+        run: |
+          asciidoctor-pdf \
+          -a revnumber=${APP_VERSION} \
+          -a revdate=${BUILD_DATE} \
+          -D output -o the-little-book-of-red-flags.pdf src/book.adoc
 
       - name: Build EPUB
-        # asciidoctor-epub3 is also built-in
-        run: asciidoctor-epub3 -D output -o my-book.epub src/book.adoc
+        run: |
+          asciidoctor-epub3 \
+          -a revnumber=${APP_VERSION} \
+          -a revdate=${BUILD_DATE} \
+          -D output -o the-little-book-of-red-flags.epub src/book.adoc
 
+      - name: Build HTML (Website)
+        # We output as index.html so it becomes the homepage
+        run: |
+          asciidoctor \
+          -a revnumber=${APP_VERSION} \
+          -a revdate=${BUILD_DATE} \
+          -D output -o index.html src/book.adoc          
+
+      - name: Copy Images to Output for HTML Support
+        run: cp -r src/images output/images          
+      
       - name: Release to GitHub
         uses: softprops/action-gh-release@v1
         if: startsWith(github.ref, 'refs/tags/')
         with:
           files: |
-            output/my-book.pdf
-            output/my-book.epub
+            output/the-little-book-of-red-flags.pdf
+            output/the-little-book-of-red-flags.epub
           draft: false
           prerelease: false
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./output

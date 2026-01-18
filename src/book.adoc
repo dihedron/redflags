@@ -1,5 +1,10 @@
-= The Hacker's Guide to AsciiDoc
-Your Name <you@example.com>
+= Piccolo Compendio delle Bandiere Rosse
+Andrea Funtò <dihedron.dev@gmail.com>
+
+:revnumber: {revnumber}
+:revdate: {revdate}
+:version-label: Version
+
 :doctype: book
 :toc: left
 :toclevels: 2
@@ -9,14 +14,26 @@ Your Name <you@example.com>
 :icons: font
 :source-highlighter: rouge
 
+// --- COVER CONFIG ---
+:front-cover-image: image:cover.png[fit=fill]
+// --- THEME CONFIG ---
+:pdf-themesdir: theme
+:pdf-theme: custom-theme.yml
+
 // --- Book Content Starts Here ---
 
-// Optional: Dedication or Preamble
 [preamble]
-This book is dedicated to open source documentation.
+Questo libro è dedicato a tutti quelli che occupano una posizione di lavoro subordinata in una qualsiasi organizzazione e avvertono quella sensazione di malessere legata all'_essere in questo mondo ma non di questo mondo_.
+
+:linkcss:
+// This adds a download link to the preamble of the HTML version only
+ifndef::backend-pdf[]
+[abstract]
+Scarica questo libro come link:piccolo-compendio-delle-bandiere-rosse.pdf[PDF] o link:piccolo-compendio-delle-bandiere-rosse.epub[ePub].
+endif::[]
 
 // Include your chapters here
-include::chapters/01-intro.adoc[]
+include::chapters/01-contents.adoc[]
 
 // You can add more chapters easily:
 // include::chapters/02-advanced.adoc[]

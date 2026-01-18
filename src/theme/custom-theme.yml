@@ -1,0 +1,59 @@
+# Extends the default theme so you don't have to define everything from scratch
+extends: default
+
+# Page Layout
+page:
+  layout: portrait
+  size: A4
+  margin: [1in, 1in, 1in, 1in]
+
+# Typography
+base:
+  font-family: Noto Serif
+  font-size: 11
+  line-height-length: 1.2
+  font-color: #333333
+
+# Headings (Chapters, Sections)
+heading:
+  font-family: Noto Sans
+  font-color: #2c3e50 # A professional dark blue
+  font-style: bold
+
+# Code Blocks
+code:
+  font-family: M+ 1mn
+  background-color: #f5f7fa
+  border-color: #e1e4e8
+  border-radius: 4
+
+# Links
+link:
+  font-color: #0066cc
+
+# font:
+#   catalog:
+#     # Define the font name and point to the file
+#     Merriweather:
+#       normal: fonts/Merriweather-Regular.ttf
+#       bold: fonts/Merriweather-Bold.ttf
+#       italic: fonts/Merriweather-Italic.ttf
+#       bold_italic: fonts/Merriweather-BoldItalic.ttf
+
+# # Apply it
+# base:
+#   font-family: Merriweather
+
+footer:
+  font_size: 9
+  # The 'recto' (right) and 'verso' (left) page content
+  recto:
+    right:
+      content: '{page-number}'
+    left:
+      content: 'v{revnumber}'
+  verso:
+    left:
+      content: '{page-number}'
+    right:
+      content: 'v{revnumber}'
