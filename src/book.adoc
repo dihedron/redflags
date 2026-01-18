@@ -96,6 +96,21 @@ Se tra i collaboratori ci sono degli avversari, il capo ha il compito di aiutarl
 
 Può anche essere che sia l'organizzazione a non saper riconoscere il valore della generosità; il capo che non aiuta i collaboratori a crescere per paura di essere oscurato può manifestare un elemento di debolezza personale (scarsa confidenza nelle proprie capacità) ma anche una scarsa confidenza nella capacità dell'organizzazione di riconoscere che la crescita dei collaboratori è un elemento di crescita per l'organizzazione ed è ascrivibile anche all'azione del capo, al quale va attribuita parte del merito.
 
+== L'espropriazione delle opportunità
+
+Le opportunità sono una cosa assai rara nelle organizzazioni che non abbiano risorse infinite
+Ci sono persone che sono in grado di creare idee nuove che danno luogo a nuove opportunità, per sé e per l'organizzazione: ad es. l'ideazione di un nuovo prodotto che apre un nuovo mercato o si inserisce in una nicchia di mercato inesplorata e promettente.
+Tali idee possono essere sviluppate individualmentefootnote:[Cfr. Il feudo.] o offerte all'organizzazione perché questa, con le risorse adeguate, ne faccia una cosa grande.
+In questo ultimo caso l'organizzazione ha diritto di decidere di affidarne lo sviluppo a persone diverse da quelle che hanno procurato l'opportunità, ma è fondamentale che renda merito, pubblicamente, a chi ne viene espropriato.
+
+Quando una azienda, o il suo _management_, non sono in grado di garantire che a fronte di un esproprio ci sia la giusta contropartita, si assiste a un _red flag_.
+
+== La tolleranza verso l'appropriazione indebita
+
+In alcuni casi, l'appropriazione indebita di un'opportunità non avviene perché l'organizzazione o il _management_ decidono che sia meglio coinvolgere altre persone, ma per iniziativa di colleghi che la rubano.
+
+La tolleranza di un'organizzazione o del suo _management_ verso questo tipo di comportamenti è un _red flag_.
+
 == La ricerca dell'eroe o del genio
 
 Alcune organizzazioni sono alla costante ricerca del genio individuale o dell'eroe che da solo, offrendo il petto al nemico, sbaraglia le avversità e fa la differenza. 
@@ -134,6 +149,26 @@ Inoltre, spesso, vengono considerate improduttive.
 Questa è una caratteristica è un _red flag_.
 
 Si tratta della versione (a livello di intera organizzazione) dellla dinamica all'interno del singolo _team_ descritta nel _red flag_ "La ricerca dell'eroe e del genio": ci sono _team_ o aree che sono caratterizzate da "geni" o "eroi" e le retrovie non contano nulla.
+
+== L'avversione alla critica
+
+Alcune organizzazioni preferiscono non parlare degli inconvenienti, delle inefficienze, degli errori in maniera trasparente.
+
+Quando la documentazione ufficiale prodotta non riporta mai traccia di problemi ma, al più, di "possibilità di ulteriore miglioramento" anche in presenza di problemi, si è di fronte a un _red flag_.
+
+L'incapacità di riconoscere gli errori e le insufficienze in maniera pacata e matura, di riflettere sulle cause e affrontarle per eliminarle o mitigarle è uno degli elementi che più frenano il miglioramento dell'organizzazione. 
+Se non misuri non controlli, se non controlli non agisci, se non agisci non migliori.
+
+== La caccia alle streghe
+
+Alcune organizzazioni sono talmente avverse al rischio che, quando avviene un incidente, danno avvio alla caccia alle streghe.
+In letteratura questo fenomeno è noto anche come _blame game_ ed è tipico delle organizzazioni che ritengono che tutta la conoscenza, le relazioni, i processi debbano essere codificati e che nel cambiamento ci sia solo rischio, mai opportunità.
+
+Innovare in un'azienda ostaggio del _blame game_ è un'impresa difficile perché molto rischiosa. Solo chi non fa nulla non sbaglia.
+
+Occorre apertura e maturità per accettare che una certa percentuale delle attività  (decisa a livello di organizzazione, sulla base della propensione al rischio e alla innovazione) riguardi aree al di fuori della _comfort zone_ codificata e siano finalizzate a trovare margini di miglioramento.
+
+// Tali attività hanno una probabilità di insuccesso, e che il collaboratore che commettesse un errore di valutazione nel proporre e implementare una innovazione non sia un sociopatico ipercritico colpevole di lesa maestà, né che un collaboratore che commette un errore lo abbia fatto per dolo.
 
 // == Abusare della posizione
 
